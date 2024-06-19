@@ -20,7 +20,7 @@ Using the GridSearchCV we identified the optimal value for hyperparameter n_neig
 GridSearchCV best parameters for KNN classifier: {'n_neighbors': 17}
 GridSearchCV best parameters score for KNN classifier: 0.82
 
-The final voting classifier we used
+For the final voting classifier we used
 estimators = [('svc',optimal_svc_model),('DT',optimal_DT_model),('knn',optimal_Knn_model),('GNB',gaussianNB_model)]
 voting_classifier = VotingClassifier(estimators=estimators,voting='hard')
 
