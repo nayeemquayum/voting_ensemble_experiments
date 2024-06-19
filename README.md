@@ -9,18 +9,21 @@ For SVC:
 Using the GridSearchCV we identified the optimal value for hyperparameter kernel, gamma and C. The result is
 
 GridSearchCV best parameters: {'C': 3, 'gamma': 'auto', 'kernel': 'rbf'}
+
 GridSearchCV best parameters score: 0.8333333333333334
 
 For Decision DecisionTreeClassifier:
 Using the GridSearchCV we identified the optimal value for hyperparameter criterion and max_depth. The result is
 
 GridSearchCV best parameters for Decision Tree classifier: {'criterion': 'gini', 'max_depth': 4}
+
 GridSearchCV best parameters score for Decision Tree classifier: 0.8
 
 For KNN classifier:
 Using the GridSearchCV we identified the optimal value for hyperparameter n_neighbors. The result is
 
 GridSearchCV best parameters for KNN classifier: {'n_neighbors': 17}
+
 GridSearchCV best parameters score for KNN classifier: 0.82
 
 For the final voting classifier we used
